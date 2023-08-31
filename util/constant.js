@@ -4,3 +4,4 @@ module.exports.DATEBASE_NAME = 'College';
 module.exports.USER_COLLECTION = 'User';
 module.exports.STUDENT_COLLECTION = 'Student';
 module.exports.COURSE_COLLECTION = 'Course';
+module.exports.EMPLOYEE_COLLECTION = "Employee";
