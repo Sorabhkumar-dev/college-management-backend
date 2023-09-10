@@ -7,7 +7,12 @@ const courseRoutes = require('./routes/course-routes');
 const studentRoutes = require('./routes/student_routes');
 const employeeRoutes = require('./routes/employee_routes')
 
+app.use()
+
 const constant = require('./util/constant');
+app.get('/student',(req,res,next) =>{
+res.send("sorabh kumar")
+});
 
 app.use(bodyParser.urlencoded({extended:false}));
 app.use(bodyParser.json());
